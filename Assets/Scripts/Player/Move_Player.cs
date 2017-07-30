@@ -6,9 +6,11 @@ public class Move_Player : MonoBehaviour {
 
     public int playerSpeed = 10;
     public int playerJumpPower = 1250;
-    public bool facingRight = true;
 
-    public float moveX;
+    public bool facingRight = true;
+    public bool isGrounded;
+
+    private float moveX;
 
 	
 	// Update is called once per frame
@@ -21,7 +23,7 @@ public class Move_Player : MonoBehaviour {
     {
         //Gestion des controles
         moveX = Input.GetAxis("Horizontal");
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Jump") && isGrounded == true)
         {
             Jump();
         }
@@ -43,6 +45,7 @@ public class Move_Player : MonoBehaviour {
     {
         //Gestion du saut
         GetComponent<Rigidbody>().AddForce(Vector3.up * playerJumpPower);
+        isGrounded = false;
     }
 
     void FlipPlayer()
@@ -51,5 +54,14 @@ public class Move_Player : MonoBehaviour {
         Vector3 localScale = gameObject.transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
+    }
+
+    void OnCollisionEnter(Collision collider)
+    {
+        Debug.Log("Player has collided with : " + collider.collider.tag);
+        if(collider.gameObject.tag == "colliderGround" )
+        {
+            isGrounded = true;
+        }
     }
 }

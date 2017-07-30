@@ -6,25 +6,20 @@ using UnityEngine.SceneManagement;
 public class Energy_Player : MonoBehaviour {
 
     public int energy;
-    public bool hasDied;
+
 	// Use this for initialization
 	void Start () {
-        hasDied = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
         if (gameObject.transform.position.y < -7)
-            hasDied = true;
-
-        if (hasDied == true)
-            StartCoroutine("Die");
+            Die();
 	}
 
-    IEnumerator Die()
+    void Die()
     {
         SceneManager.LoadScene("Main");
-        yield return null;
-        
+       
     }
 }
