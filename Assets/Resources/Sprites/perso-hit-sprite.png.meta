@@ -1,11 +1,14 @@
 fileFormatVersion: 2
-guid: 9b16a5fde7091e8479c77b92d22249a2
-timeCreated: 1501438559
+guid: 697eaa8459dd3b44cb5ac770ca96c963
+timeCreated: 1501438634
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: perso-idle-sprite_0
-    21300002: perso-idle-sprite_1
+    21300000: perso-hit-sprite_0
+    21300002: perso-hit-sprite_1
+    21300004: perso-hit-sprite_2
+    21300006: perso-hit-sprite_3
+    21300008: perso-hit-sprite_4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -72,10 +75,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: perso-idle-sprite_0
+      name: perso-hit-sprite_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 20
         y: 0
         width: 23
         height: 51
@@ -85,13 +88,52 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-idle-sprite_1
+      name: perso-hit-sprite_1
       rect:
         serializedVersion: 2
-        x: 85
+        x: 84
         y: 0
-        width: 23
-        height: 50
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: perso-hit-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: perso-hit-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: perso-hit-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 27
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

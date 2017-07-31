@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: 9b16a5fde7091e8479c77b92d22249a2
-timeCreated: 1501438559
+guid: 92ad5a0734ff3054bad086b01f2fc916
+timeCreated: 1501438737
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: perso-idle-sprite_0
-    21300002: perso-idle-sprite_1
+    21300000: attacks-anim-sprite_0
+    21300002: attacks-anim-sprite_1
+    21300004: attacks-anim-sprite_2
+    21300006: attacks-anim-sprite_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -72,26 +74,52 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: perso-idle-sprite_0
+      name: attacks-anim-sprite_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 0
-        width: 23
-        height: 51
+        x: 6
+        y: 17
+        width: 47
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-idle-sprite_1
+      name: attacks-anim-sprite_1
       rect:
         serializedVersion: 2
-        x: 85
+        x: 70
+        y: 17
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: attacks-anim-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 135
         y: 0
-        width: 23
-        height: 50
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: attacks-anim-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 41
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

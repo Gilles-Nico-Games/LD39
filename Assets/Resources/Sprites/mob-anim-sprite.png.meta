@@ -1,22 +1,27 @@
 fileFormatVersion: 2
-guid: f4b8c9557db084840bba3c8ec2777a89
-timeCreated: 1501438695
+guid: b878b2dee88cf8d40a46a4a069d920e3
+timeCreated: 1501438716
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: perso-cac-sprite_0
-    21300002: perso-cac-sprite_1
-    21300004: perso-cac-sprite_2
-    21300006: perso-cac-sprite_3
-    21300008: perso-cac-sprite_4
-    21300010: perso-cac-sprite_5
-    21300012: perso-cac-sprite_6
-    21300014: perso-cac-sprite_7
-    21300016: perso-cac-sprite_8
-    21300018: perso-cac-sprite_9
-    21300020: perso-cac-sprite_10
-    21300022: perso-cac-sprite_11
-    21300024: perso-cac-sprite_12
+    21300000: mob-anim-sprite_0
+    21300002: mob-anim-sprite_1
+    21300004: mob-anim-sprite_2
+    21300006: mob-anim-sprite_3
+    21300008: mob-anim-sprite_4
+    21300010: mob-anim-sprite_5
+    21300012: mob-anim-sprite_6
+    21300014: mob-anim-sprite_7
+    21300016: mob-anim-sprite_8
+    21300018: mob-anim-sprite_9
+    21300020: mob-anim-sprite_10
+    21300022: mob-anim-sprite_11
+    21300024: mob-anim-sprite_12
+    21300026: mob-anim-sprite_13
+    21300028: mob-anim-sprite_14
+    21300030: mob-anim-sprite_15
+    21300032: mob-anim-sprite_16
+    21300034: mob-anim-sprite_17
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -83,169 +88,234 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: perso-cac-sprite_0
+      name: mob-anim-sprite_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 0
-        width: 23
-        height: 51
+        x: 18
+        y: 128
+        width: 26
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_1
+      name: mob-anim-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 128
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 128
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 128
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 128
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 128
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 64
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 64
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 64
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_9
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 64
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 64
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 64
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mob-anim-sprite_13
       rect:
         serializedVersion: 2
         x: 82
         y: 0
-        width: 26
-        height: 52
+        width: 25
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_2
+      name: mob-anim-sprite_14
       rect:
         serializedVersion: 2
         x: 146
         y: 0
-        width: 30
-        height: 51
+        width: 26
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_3
+      name: mob-anim-sprite_15
       rect:
         serializedVersion: 2
-        x: 209
+        x: 210
         y: 0
-        width: 23
-        height: 49
+        width: 30
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_4
+      name: mob-anim-sprite_16
       rect:
         serializedVersion: 2
         x: 274
         y: 0
-        width: 23
-        height: 49
+        width: 26
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_5
+      name: mob-anim-sprite_17
       rect:
         serializedVersion: 2
-        x: 336
+        x: 338
         y: 0
         width: 25
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_6
-      rect:
-        serializedVersion: 2
-        x: 406
-        y: 0
-        width: 22
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_7
-      rect:
-        serializedVersion: 2
-        x: 474
-        y: 0
-        width: 19
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_8
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 0
-        width: 23
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_9
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 0
-        width: 24
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_10
-      rect:
-        serializedVersion: 2
-        x: 665
-        y: 0
-        width: 19
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_11
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 0
-        width: 18
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_12
-      rect:
-        serializedVersion: 2
-        x: 793
-        y: 0
-        width: 19
-        height: 48
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
