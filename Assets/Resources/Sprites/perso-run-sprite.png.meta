@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: f4b8c9557db084840bba3c8ec2777a89
-timeCreated: 1501438695
+guid: 99afd22333e8d4c4db2f10f59f977998
+timeCreated: 1501438612
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: perso-cac-sprite_0
-    21300002: perso-cac-sprite_1
-    21300004: perso-cac-sprite_2
-    21300006: perso-cac-sprite_3
-    21300008: perso-cac-sprite_4
-    21300010: perso-cac-sprite_5
-    21300012: perso-cac-sprite_6
-    21300014: perso-cac-sprite_7
-    21300016: perso-cac-sprite_8
-    21300018: perso-cac-sprite_9
-    21300020: perso-cac-sprite_10
-    21300022: perso-cac-sprite_11
-    21300024: perso-cac-sprite_12
+    21300000: perso-run-sprite_0
+    21300002: perso-run-sprite_1
+    21300004: perso-run-sprite_2
+    21300006: perso-run-sprite_3
+    21300008: perso-run-sprite_4
+    21300010: perso-run-sprite_5
+    21300012: perso-run-sprite_6
+    21300014: perso-run-sprite_7
+    21300016: perso-run-sprite_8
+    21300018: perso-run-sprite_9
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -83,38 +80,25 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: perso-cac-sprite_0
+      name: perso-run-sprite_0
       rect:
         serializedVersion: 2
         x: 20
         y: 0
-        width: 23
-        height: 51
+        width: 27
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_1
+      name: perso-run-sprite_1
       rect:
         serializedVersion: 2
         x: 82
         y: 0
-        width: 26
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_2
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 0
-        width: 30
+        width: 28
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -122,12 +106,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_3
+      name: perso-run-sprite_2
       rect:
         serializedVersion: 2
-        x: 209
+        x: 146
         y: 0
-        width: 23
+        width: 27
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -135,12 +119,12 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_4
+      name: perso-run-sprite_3
       rect:
         serializedVersion: 2
-        x: 274
+        x: 210
         y: 0
-        width: 23
+        width: 25
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -148,25 +132,51 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_5
+      name: perso-run-sprite_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: perso-run-sprite_5
       rect:
         serializedVersion: 2
         x: 336
         y: 0
-        width: 25
-        height: 48
+        width: 32
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_6
+      name: perso-run-sprite_6
       rect:
         serializedVersion: 2
-        x: 406
+        x: 403
         y: 0
-        width: 22
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: perso-run-sprite_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 19
         height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -174,78 +184,26 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_7
+      name: perso-run-sprite_8
       rect:
         serializedVersion: 2
-        x: 474
-        y: 0
-        width: 19
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_8
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 0
-        width: 23
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_9
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 0
-        width: 24
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_10
-      rect:
-        serializedVersion: 2
-        x: 665
-        y: 0
-        width: 19
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-cac-sprite_11
-      rect:
-        serializedVersion: 2
-        x: 729
+        x: 536
         y: 0
         width: 18
-        height: 44
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: perso-cac-sprite_12
+      name: perso-run-sprite_9
       rect:
         serializedVersion: 2
-        x: 793
+        x: 600
         y: 0
-        width: 19
-        height: 48
+        width: 21
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

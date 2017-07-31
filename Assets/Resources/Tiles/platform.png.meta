@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 9b16a5fde7091e8479c77b92d22249a2
-timeCreated: 1501438559
+guid: a2a174d102e7d7843aae1b8db4f540c5
+timeCreated: 1501514196
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: perso-idle-sprite_0
-    21300002: perso-idle-sprite_1
+  fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -36,13 +34,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10000
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -70,34 +68,12 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: perso-idle-sprite_0
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 0
-        width: 23
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: perso-idle-sprite_1
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 0
-        width: 23
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    outline: []
+    sprites: []
+    outline:
+    - - {x: -16, y: 16}
+      - {x: -16, y: -16}
+      - {x: 16, y: -16}
+      - {x: 16, y: 16}
   spritePackingTag: 
   userData: 
   assetBundleName: 
